@@ -12,9 +12,9 @@
             </div>
           </td>
           <td class="table-tdC">
-            <h3 class="time-body-value">
+            <h1 class="time-body-value">
               {{ datetime.format('HH:mm') }}
-            </h3>
+            </h1>
           </td>
           <td class="table-tdR">
             На арабском!
