@@ -3,7 +3,7 @@
     class="time"
     :class="[time, { active: isActiveTime }, { next: isNextTime }]"
   >
-    <table>
+    <table class="table-m">
       <tr>
         <td>
       <div class="time-body">
@@ -72,5 +72,8 @@ export default {
       font-size: 2.3em;
     }
   }
+};
+.table-m {
+  text-align: center;
 }
 </style>
