@@ -2,9 +2,9 @@ const locales = {
   locales: {
     tr: 'Türkçe',
     ar: 'العربية',
-    en: 'English',
+    en: 'Englishh',
     de: 'Deutsch',
-    ru: 'русский'
+    ru: 'Русский'
   }
 }
 
@@ -60,53 +60,53 @@ export default {
     },
       settings: {
       data: 'Data',
-      country: 'Country',
-      city: 'City',
+      country: 'Страна',
+      city: 'Город',
       town: 'Town',
-      settings: 'Settings',
-      language: 'Language',
-      saveAndBack: 'Save and Go Back'
+      settings: 'Настройки',
+      language: 'Язык',
+      saveAndBack: 'Сохранить и закрыть'
     },
     ...locales
+  },
+  ar: {
+     times: {
+       Imsak: 'الإمساك',
+       Gunes: 'الأيام الدينة',
+       Ogle: 'الظهر',
+       Ikindi: 'العصر',
+       Aksam: 'المغرب',
+       Yatsi: 'العشاء'
+     },
+     settings: {
+       data: 'Data',
+       country: 'Country',
+       city: 'City',
+       town: 'Town',
+       settings: 'Settings',
+       language: 'Language',
+       saveAndBack: 'Save and Go Back'
+     },
+     ...locales
+  },
+  de: {
+     times: {
+       Imsak: 'Morgengebet',
+       Gunes: 'Sonnenaufgang',
+       Ogle: 'Mittagsgebet',
+       Ikindi: 'Nachmittagsgebet',
+       Aksam: 'Abendgebet',
+       Yatsi: 'Nachtgebet'
+     },
+     settings: {
+       data: 'Data',
+       country: 'Country',
+       city: 'City',
+       town: 'Town',
+       settings: 'Settings',
+       language: 'Language',
+       saveAndBack: 'Save and Go Back'
+     },
+     ...locales
   }
-  // ar: {
-  //   times: {
-  //     Imsak: 'الإمساك',
-  //     Gunes: 'الأيام الدينة',
-  //     Ogle: 'الظهر',
-  //     Ikindi: 'العصر',
-  //     Aksam: 'المغرب',
-  //     Yatsi: 'العشاء'
-  //   },
-  //   settings: {
-  //     data: 'Data',
-  //     country: 'Country',
-  //     city: 'City',
-  //     town: 'Town',
-  //     settings: 'Settings',
-  //     language: 'Language',
-  //     saveAndBack: 'Save and Go Back'
-  //   },
-  //   ...locales
-  // },
-  // de: {
-  //   times: {
-  //     Imsak: 'Morgengebet',
-  //     Gunes: 'Sonnenaufgang',
-  //     Ogle: 'Mittagsgebet',
-  //     Ikindi: 'Nachmittagsgebet',
-  //     Aksam: 'Abendgebet',
-  //     Yatsi: 'Nachtgebet'
-  //   },
-  //   settings: {
-  //     data: 'Data',
-  //     country: 'Country',
-  //     city: 'City',
-  //     town: 'Town',
-  //     settings: 'Settings',
-  //     language: 'Language',
-  //     saveAndBack: 'Save and Go Back'
-  //   },
-  //   ...locales
-  // },
 }
