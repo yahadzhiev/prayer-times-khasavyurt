@@ -111,6 +111,5 @@ export default {
 .mobile-table {
   width: 100%;
   max-width: 100%;
-  overflow-x: auto;
 }
 </style>
