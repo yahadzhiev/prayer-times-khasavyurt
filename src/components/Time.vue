@@ -13,8 +13,6 @@
       <Timer v-if="isActiveTime" :timer="timer" />
       </div>
         </td>
-      </tr>
-      <tr>
         <td>
       <h3 class="time-body-value">
           {{ datetime.format('HH:mm') }}
