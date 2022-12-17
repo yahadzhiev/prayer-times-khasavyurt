@@ -67,8 +67,6 @@ export default {
   }
 }
 
-;
-
 .table-m {
   width: 100%;
   table-layout: fixed;
