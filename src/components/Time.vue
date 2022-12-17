@@ -1,27 +1,27 @@
 <template>
   <div class="time" :class="[time, { active: isActiveTime }, { next: isNextTime }]">
-  <div>
-  <table class="table-m">
-  <tr>
-	<td class="table-tdL">
-    <div class="time-body">
-    <h4 class="time-body-title">
-     {{ $t(`times.${time}`) }}
-    </h4>
-    <Timer v-if="isActiveTime" :timer="timer" />
+    <div>
+      <table class="table-m">
+        <tr>
+          <td class="table-tdL">
+            <div class="time-body">
+              <h4 class="time-body-title">
+                {{ $t(`times.${time}`) }}
+              </h4>
+              <Timer v-if="isActiveTime" :timer="timer" />
+            </div>
+          </td>
+          <td class="table-tdC">
+            <h3 class="time-body-value">
+              {{ datetime.format('HH:mm') }}
+            </h3>
+          </td>
+          <td class="table-tdR">
+            На арабском!
+          </td>
+        </tr>
+      </table>
     </div>
-  </td>
-	<td class="table-tdC">
-    <h3 class="time-body-value">
-    {{ datetime.format('HH:mm') }}
-    </h3>
-  </td>
-	<td class="table-tdR">
-   На арабском!
-  </td>
-  </tr>
-  </table>
-</div>
 </template>
 
 <script>
@@ -68,12 +68,15 @@ export default {
     &-title {
       font-weight: normal;
     }
+
     &-value {
       margin-top: 6px;
       font-size: 1.3em;
     }
   }
-};
+}
+
+;
 
 .table-m {
   width: 100%;
