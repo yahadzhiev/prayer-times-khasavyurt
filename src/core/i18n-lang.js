@@ -99,13 +99,13 @@ export default {
       Yatsi: 'Ночной'
     },
     settings: {
-      data: 'Data',
-      country: 'Country',
-      city: 'City',
-      town: 'Town',
-      settings: 'Settings',
-      language: 'Language',
-      saveAndBack: 'Save and Go Back'
+      data: 'Информация',
+      country: 'Страна',
+      city: 'Регион',
+      town: 'Город',
+      settings: 'Настройки',
+      language: 'Язык',
+      saveAndBack: 'Сохранить и закрыть'
     },
     ...locales
   }
