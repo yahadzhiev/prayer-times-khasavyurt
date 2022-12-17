@@ -98,9 +98,4 @@ export default {
 .table-tdR {
   text-align: right
 }
-
-.mobile-table {
-  width: 100%;
-  max-width: 100%;
-}
 </style>
