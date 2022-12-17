@@ -96,19 +96,19 @@
   background-color: var(--color-aksam-bg);
 
   .Imsak {
-    opacity: 0.6;
+    opacity: 1;
     background-color: #4ba6ec;
   }
   .Gunes {
-    opacity: 0.7;
+    opacity: 1;
     background-color: #56aef0;
   }
   .Ogle {
-    opacity: 0.8;
+    opacity: 1;
     background-color: #65b7f5;
   }
   .Ikindi {
-    opacity: 0.9;
+    opacity: 1;
     background-color: #76c0f9;
   }
 }
