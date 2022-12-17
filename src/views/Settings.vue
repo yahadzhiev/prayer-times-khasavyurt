@@ -168,7 +168,7 @@ export default {
   }
 
   .bottom {
-    margin-top: unset;
+    margin-top: auto;
     margin-bottom: 0;
   }
 
