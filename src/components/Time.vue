@@ -2,7 +2,6 @@
   <div class="time" :class="[time, { active: isActiveTime }, { next: isNextTime }]">
   <div>
   <table class="table-m">
-  <tbody>
   <tr>
 	<td class="table-tdL">
     <div class="time-body">
@@ -21,7 +20,6 @@
    На арабском!
   </td>
   </tr>
-  </tbody>
   </table>
 </div>
 </template>
@@ -65,7 +63,7 @@ export default {
   &.next &-body {
     font-size: 1.2em;
   }
-  
+
   &-body {
     &-title {
       font-weight: normal;
