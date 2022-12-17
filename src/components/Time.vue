@@ -1,8 +1,5 @@
 <template>
   <div class="time" :class="[time, { active: isActiveTime }, { next: isNextTime }]">
-    
-    
-  <div class="mobile-table">
   <table class="table-m">
   <tbody>
   <tr>
@@ -25,7 +22,6 @@
   </tr>
   </tbody>
   </table>
-  </div>
 </template>
 
 <script>
