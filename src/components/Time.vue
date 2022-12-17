@@ -1,27 +1,18 @@
 <template>
   <div class="time" :class="[time, { active: isActiveTime }, { next: isNextTime }]">
     <div>
-      <table class="table-m">
-        <tr>
-          <td>
-            <div class="time-body">
-              <h4 class="time-body-title">
-                {{ $t(`times.${time}`) }}
-              </h4>
-              <Timer v-if="isActiveTime" :timer="timer" />
-            </div>
-          </td>
-          <td>
-            <h3 class="time-body-value">
-              {{ datetime.format('HH:mm') }}
-            </h3>
-          </td>
-          <td>
-            На арабском!
-          </td>
-        </tr>
-      </table>
+      <div class="time-body">
+        <h4 class="time-body-title">
+          {{ $t(`times.${time}`) }}
+        </h4>
+        <h3 class="time-body-value">
+          {{ datetime.format('HH:mm') }}
+        </h3>
+      </div>
+
+      <Timer v-if="isActiveTime" :timer="timer" />
     </div>
+  </div>
 </template>
 
 <script>
