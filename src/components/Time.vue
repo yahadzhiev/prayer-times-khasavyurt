@@ -1,24 +1,34 @@
 <template>
-  <div
-    class="time"
-    :class="[time, { active: isActiveTime }, { next: isNextTime }]"
-  >
-    <table class="table-m">
-      <tr>
-        <td>
-      <div class="time-body">
-        <h4 class="time-body-title">
-          {{ $t(`times.${time}`) }}
-        </h4>
-      <Timer v-if="isActiveTime" :timer="timer" />
-      </div>
-        </td>
-        <td>
-      <h3 class="time-body-value">
-          {{ datetime.format('HH:mm') }}
-      </h3>
-        </td>
-      </tr>
+  <div class="time" :class="[time, { active: isActiveTime }, { next: isNextTime }]">
+    
+    
+  <div class="mobile-table">
+  <table class="table-m">
+  <tbody>
+  <tr>
+	<td class="table-tdL">
+    <div class="time-body">
+    <h4 class="time-body-title">
+     {{ $t(`times.${time}`) }}
+    </h4>
+    <Timer v-if="isActiveTime" :timer="timer" />
+    </div>
+  </td>
+	<td class="table-tdC">
+    <h3 class="time-body-value">
+    {{ datetime.format('HH:mm') }}
+    </h3>
+  </td>
+	<td class="table-tdR">
+    123
+    123
+    123
+    123
+    123
+    123
+  </td>
+  </tr>
+  </tbody>
   </table>
   </div>
 </template>
@@ -67,13 +77,40 @@ export default {
     &-title {
       font-weight: normal;
     }
+
     &-value {
       margin-top: 6px;
       font-size: 2.3em;
     }
   }
-};
+}
+
+;
+
 .table-m {
-  text-align: center;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.table-m tr {
+  white-space: pre-wrap;
+}
+
+.table-tdL {
+  text-align: left
+}
+
+.table-tdC {
+  text-align: center
+}
+
+.table-tdR {
+  text-align: right
+}
+
+.mobile-table {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
 }
 </style>
