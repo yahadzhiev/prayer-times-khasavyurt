@@ -3,19 +3,20 @@
     class="time"
     :class="[time, { active: isActiveTime }, { next: isNextTime }]"
   >
-    <div>
+    <table>
+      <tr>
       <div class="time-body">
         <h4 class="time-body-title">
           {{ $t(`times.${time}`) }}
         </h4>
-      </div>
       <Timer v-if="isActiveTime" :timer="timer" />
-    </div>
-    <div>
+      </tr>>
+      <tr>
       <h3 class="time-body-value">
           {{ datetime.format('HH:mm') }}
-        </h3>
-    </div>
+      </h3>
+      </tr>
+  </table>
   </div>
 </template>
 
