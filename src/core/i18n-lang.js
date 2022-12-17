@@ -48,6 +48,26 @@ export default {
       saveAndBack: 'Kaydet ve Geri Dön'
     },
     ...locales
+  },
+  ru: {
+    times: {
+      Imsak: 'Фаджр',
+      Gunes: 'Солнце',
+      Ogle: 'Обеденный',
+      Ikindi: 'Послеполуденный',
+      Aksam: 'Вечерний',
+      Yatsi: 'Ночной'
+    },
+      settings: {
+      data: 'Data',
+      country: 'Country',
+      city: 'City',
+      town: 'Town',
+      settings: 'Settings',
+      language: 'Language',
+      saveAndBack: 'Save and Go Back'
+    },
+    ...locales
   }
   // ar: {
   //   times: {
@@ -89,24 +109,4 @@ export default {
   //   },
   //   ...locales
   // },
-  // ru: {
-  //   times: {
-  //     Imsak: 'Фаджр',
-  //     Gunes: 'Солнце',
-  //     Ogle: 'Обеденный',
-  //     Ikindi: 'Послеполуденный',
-  //     Aksam: 'Вечерний',
-  //     Yatsi: 'Ночной'
-  //   },
-  //   settings: {
-  //     data: 'Data',
-  //     country: 'Country',
-  //     city: 'City',
-  //     town: 'Town',
-  //     settings: 'Settings',
-  //     language: 'Language',
-  //     saveAndBack: 'Save and Go Back'
-  //   },
-  //   ...locales
-  // }
 }
