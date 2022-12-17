@@ -8,12 +8,13 @@
         <h4 class="time-body-title">
           {{ $t(`times.${time}`) }}
         </h4>
-        <h3 class="time-body-value">
+      </div>
+      <Timer v-if="isActiveTime" :timer="timer" />
+    </div>
+    <div>
+      <h3 class="time-body-value">
           {{ datetime.format('HH:mm') }}
         </h3>
-      </div>
-
-      <Timer v-if="isActiveTime" :timer="timer" />
     </div>
   </div>
 </template>
