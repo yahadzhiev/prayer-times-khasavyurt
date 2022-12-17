@@ -73,15 +73,15 @@
   background-color: var(--color-ikindi-bg);
 
   .Imsak {
-    opacity: 0.7;
+    opacity: 0.6;
     background-color: #f6b480;
   }
   .Gunes {
-    opacity: 0.8;
+    opacity: 0.7;
     background-color: #fabf91;
   }
   .Ogle {
-    opacity: 0.9;
+    opacity: 0.8;
     background-color: #fdcaa3;
   }
   .Yatsi {

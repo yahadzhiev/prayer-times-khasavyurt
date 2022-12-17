@@ -92,7 +92,7 @@ export default {
   ru: {
     times: {
       Imsak: 'Фаджр',
-      Gunes: 'Солнце',
+      Gunes: 'Восход',
       Ogle: 'Обеденный',
       Ikindi: 'Послеполуденный',
       Aksam: 'Вечерний',
