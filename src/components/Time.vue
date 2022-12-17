@@ -63,22 +63,19 @@ export default {
 
   &.active &-body,
   &.next &-body {
-    font-size: 2.2em;
+    font-size: 1.2em;
   }
-
+  
   &-body {
     &-title {
       font-weight: normal;
     }
-
     &-value {
       margin-top: 6px;
-      font-size: 2.3em;
+      font-size: 1.3em;
     }
   }
-}
-
-;
+};
 
 .table-m {
   width: 100%;
