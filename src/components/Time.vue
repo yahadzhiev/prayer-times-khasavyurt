@@ -5,16 +5,21 @@
   >
     <table>
       <tr>
+        <td>
       <div class="time-body">
         <h4 class="time-body-title">
           {{ $t(`times.${time}`) }}
         </h4>
       <Timer v-if="isActiveTime" :timer="timer" />
-      </tr>>
+      </div>
+        </td>
+      </tr>
       <tr>
+        <td>
       <h3 class="time-body-value">
           {{ datetime.format('HH:mm') }}
       </h3>
+        </td>
       </tr>
   </table>
   </div>
