@@ -3,7 +3,7 @@
     <div>
       <table class="table-m">
         <tr>
-          <td class="table-tdL">
+          <td>
             <div class="time-body">
               <h4 class="time-body-title">
                 {{ $t(`times.${time}`) }}
@@ -11,12 +11,12 @@
               <Timer v-if="isActiveTime" :timer="timer" />
             </div>
           </td>
-          <td class="table-tdC">
+          <td>
             <h3 class="time-body-value">
               {{ datetime.format('HH:mm') }}
             </h3>
           </td>
-          <td class="table-tdR">
+          <td>
             На арабском!
           </td>
         </tr>
