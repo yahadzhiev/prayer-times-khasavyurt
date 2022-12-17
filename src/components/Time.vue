@@ -12,9 +12,9 @@
             </div>
           </td>
           <td class="table-tdC">
-            <h1 class="time-body-value">
+            <h3 class="time-body-value">
               {{ datetime.format('HH:mm') }}
-            </h1>
+            </h3>
           </td>
           <td class="table-tdR">
             На арабском!
@@ -61,7 +61,7 @@ export default {
 
   &.active &-body,
   &.next &-body {
-    font-size: 1.2em;
+    font-size: 2.0em;
   }
 
   &-body {
@@ -71,7 +71,7 @@ export default {
 
     &-value {
       margin-top: 6px;
-      font-size: 1.3em;
+      font-size: 3.0em;
     }
   }
 }
