@@ -81,10 +81,6 @@ export default {
   table-layout: fixed;
 }
 
-.table-m tr {
-  white-space: pre-wrap;
-}
-
 .table-tdL {
   text-align: right;
 }
