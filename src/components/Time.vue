@@ -4,7 +4,7 @@
       <table class="table-m">
         <tr>
           <td class="table-tdL">
-            <img src="/img/clock_analog.png" width="50px" height="50px">
+            <img src="/img/clock_analog.png" width="75px" height="75px">
           </td>
           <td class="table-tdC">
             <h3 class="time-body-value">
