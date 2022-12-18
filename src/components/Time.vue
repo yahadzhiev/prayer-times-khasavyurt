@@ -4,12 +4,7 @@
       <table class="table-m">
         <tr>
           <td class="table-tdL">
-            <div class="time-body">
-              <h4 class="time-body-title">
-                {{ $t(`times.${time}`) }}
-              </h4>
-              <Timer v-if="isActiveTime" :timer="timer" />
-            </div>
+            <img src="/img/clock_analog.png" width="500" height="600">
           </td>
           <td class="table-tdC">
             <h3 class="time-body-value">
@@ -17,7 +12,12 @@
             </h3>
           </td>
           <td class="table-tdR">
-            На арабском!
+            <div class="time-body">
+              <h4 class="time-body-title">
+                {{ $t(`times.${time}`) }}
+              </h4>
+              <Timer v-if="isActiveTime" :timer="timer" />
+            </div>
           </td>
         </tr>
       </table>
