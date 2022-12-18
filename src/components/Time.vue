@@ -86,8 +86,7 @@ export default {
 }
 
 .table-tdL {
-  text-align: center;
-  width: 80px;
+  text-align: right;
 }
 
 .table-tdC {
@@ -95,6 +94,6 @@ export default {
 }
 
 .table-tdR {
-  text-align: right
+  text-align: left
 }
 </style>
