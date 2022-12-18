@@ -61,7 +61,7 @@ export default {
 
   &.active &-body,
   &.next &-body {
-    font-size: 2.0em;
+    font-size: 1.5em;
   }
 
   &-body {
@@ -71,7 +71,7 @@ export default {
 
     &-value {
       margin-top: 6px;
-      font-size: 3.0em;
+      font-size: 2.5em;
     }
   }
 }
