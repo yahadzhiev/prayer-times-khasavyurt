@@ -56,7 +56,7 @@ export default {
   min-height: 90px;
   display: flex;
   align-items: center;
-  padding: 10px 30px;
+  /* padding: 10px 30px; */
   transition-delay: 0.1s;
 
   &.active &-body,
