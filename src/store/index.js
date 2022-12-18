@@ -26,7 +26,7 @@ export default new Vuex.Store({
     countryId: -1,
     cityId: -1,
     townId: -1,
-    lang: 'ru'
+    lang: 'en'
   },
   getters,
   actions,
